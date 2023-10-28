@@ -9,6 +9,7 @@ def toBinary(decimal):
             decimal=decimal//2
     
     return Binary
+
 decimal_number=eval(input("Enter the decimal number :"))
 display = toBinary(decimal_number)
 print(display)
